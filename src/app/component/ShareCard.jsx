@@ -386,6 +386,22 @@ STEM Instructor · Educator · Innovation Developer
   </svg>
   Share via WhatsApp
 </button>
+{/* Framework link */}
+{/* Framework link */}
+<p style={{ textAlign: "center", margin: "4px 0 0" }}>
+  <a
+    href="https://drive.google.com/file/d/1o4mqpjtBRW1QQZkzcWSnjzrVmy3uVcGO/view?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      fontSize: 12,
+      color: "#85B7EB",
+      textDecoration: "underline",
+    }}
+  >
+    Download the Responsible AI Classroom Framework →
+  </a>
+</p>
     </div>
   );
 }

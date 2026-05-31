@@ -210,16 +210,33 @@ export default function ConsultantCTA({ percentage }) {
         </p>
 
         {/* Tagline */}
-        <p
-          style={{
-            textAlign: "center",
-            fontSize: 13,
-            fontStyle: "italic",
-            color: "#85B7EB",
-            margin: 0,
-          }}
-        >
-          STEM Instructor · Educator · Innovation Developer
+        {/* Tagline */}
+<p
+  style={{
+    textAlign: "center",
+    fontSize: 13,
+    fontStyle: "italic",
+    color: "#85B7EB",
+    marginBottom: 12,
+  }}
+>
+  STEM Instructor · Educator · Innovation Developer
+</p>
+
+{/* Framework PDF */}
+        <p style={{ textAlign: "center", margin: 0 }}>
+          <a
+            href="https://drive.google.com/file/d/1o4mqpjtBRW1QQZkzcWSnjzrVmy3uVcGO/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              fontSize: 12,
+              color: "#85B7EB",
+              textDecoration: "underline",
+            }}
+          >
+            Download the Responsible AI Classroom Framework →
+          </a>
         </p>
       </div>
     </div>

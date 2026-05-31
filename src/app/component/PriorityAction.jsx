@@ -189,8 +189,12 @@ export default function PriorityAction({ scores, recommendationsRef }) {
           </button>
 
           {/* PDF link placeholder */}
+          {/* PDF link */}
           <p style={{ textAlign: "center", margin: 0 }}>
-            <span
+            <a
+              href="https://drive.google.com/file/d/1o4mqpjtBRW1QQZkzcWSnjzrVmy3uVcGO/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 fontSize: 12,
                 color: "#85B7EB",
@@ -199,8 +203,9 @@ export default function PriorityAction({ scores, recommendationsRef }) {
               }}
             >
               Download the complete Responsible AI Classroom Framework →
-            </span>
+            </a>
           </p>
+
         </div>
       </div>
     </>
