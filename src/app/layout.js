@@ -3,6 +3,9 @@ import "./globals.css";
 export const metadata = {
   title: "The Responsible AI Classroom",
   description: "AI Readiness Assessment for Educators",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
